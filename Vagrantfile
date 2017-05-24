@@ -29,6 +29,8 @@ Vagrant.configure(2) do |config|
     end
   end
 
+  config.omnibus.chef_version = "12.20.3"
+
   config.vm.provision "chef_solo" do |chef|
     chef.environments_path = 'environments'
     chef.add_recipe "devbox::default"
