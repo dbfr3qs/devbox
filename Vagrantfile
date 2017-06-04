@@ -10,8 +10,8 @@ Vagrant.configure(2) do |config|
   # For a complete reference, please see the online documentation at
   # https://docs.vagrantup.com.
 
-  config.vm.box = "ubuntu/wily64"
-  #config.vm.synced_folder "../data", "/vagrant_data"
+  config.vm.box = "ubuntu/xenial64"
+  config.vm.synced_folder "../../", "/mnt/workspace"
 
   config.vm.hostname = "devbox"
 
@@ -32,12 +32,11 @@ Vagrant.configure(2) do |config|
   config.omnibus.chef_version = "12.20.3"
 
   config.vm.provision "chef_solo" do |chef|
-    chef.environments_path = 'environments'
+    chef.environments_path = 'environments' 
     chef.add_recipe "devbox::default"
-
     chef.environment = ENV['DEVBOX_ENV'] || 'github'
   end
-
+  
   # Copy the ssh, vim and git configuration
   #config.vm.provision 'copy_my_conf' do |copy_conf|
   #  copy_conf.git

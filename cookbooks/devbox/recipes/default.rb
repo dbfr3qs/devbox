@@ -10,6 +10,8 @@ include_recipe 'devbox::base16'
 include_recipe 'devbox::dev_tools'
 
 # Application configuration
+include_recipe 'chrome::default'
+include_recipe 'devbox::chrome'
 include_recipe 'devbox::firefox'
 include_recipe 'devbox::fish'
 include_recipe 'devbox::docker'

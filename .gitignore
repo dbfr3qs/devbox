@@ -6,3 +6,4 @@
 .kitchen/
 .kitchen.local.yml
 /_build/
+*.log

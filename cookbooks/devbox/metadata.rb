@@ -6,6 +6,7 @@ description      "Installs a base dev box"
 long_description "Installs a base dev box"
 version          "0.0.1"
 
+depends          'chrome'
 depends          "rvm", "~> 0.9"
 depends          "vim_config"
 depends          "golang"

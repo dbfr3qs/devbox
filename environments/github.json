@@ -2,8 +2,8 @@
   "name": "github",
   "default_attributes": {
     "devbox": {
-      "user": "lethalpaga",
-      "group": "lethalpaga"
+      "user": "dev-chriskeogh",
+      "group": "dev-chriskeogh"
     }
   }
 }
