@@ -19,5 +19,6 @@ Usage
 Easiest way to create a box is to use vagrant
 ```
 vagrant plugin install vagrant-berkshelf
+vagrant plugin install vagrant-omnibu
 vagrant up
 ```
