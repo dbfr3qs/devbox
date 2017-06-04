@@ -9,9 +9,9 @@ Setup includes:
   - [Vim](http://www.vim.org/) and a bunch of plugins
   - [Firefox](https://www.mozilla.org/en-US/firefox) with [Vimperator](http://www.vimperator.org/vimperator)
   - [Base16 colorscheme](https://github.com/chriskempson/base16)
-  - [Rvm](https://rvm.io/) with [Ruby 2.2.3 and 2.3.1]
+  - [Rvm](https://rvm.io/) with Ruby 2.2.3 and 2.3.1
   - [Golang](https://golang.org/)
-  - [Chrome](https://www.google.com/chrome/) with [Adblock]
+  - [Chrome](https://www.google.com/chrome/) with Adblock
 
 Usage
 =====
